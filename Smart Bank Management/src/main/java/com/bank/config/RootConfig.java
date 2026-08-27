@@ -29,8 +29,8 @@ public class RootConfig {
 	        DriverManagerDataSource ds = new DriverManagerDataSource();
 	        ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
 	        ds.setUrl("jdbc:mysql://localhost:3306/bank"); 
-	        ds.setUsername("root");
-	        ds.setPassword("Root_123");
+	        ds.setUsername("Username");
+	        ds.setPassword("Password");
 	        return ds;
 	    }
 	
