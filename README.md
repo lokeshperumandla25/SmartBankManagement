@@ -217,19 +217,6 @@ target/
 
 Deploy the generated WAR file to **Tomcat 10.1+** and start the server.
 
-## Security Note
-
-This project is intended for **learning and portfolio purposes** and is not production-ready banking software.
-
-Before production deployment:
-
-* Move credentials to environment variables or a secrets manager.
-* Hash passwords using BCrypt or another secure password hashing algorithm.
-* Implement Spring Security for authentication and authorization.
-* Add CSRF protection.
-* Use `BigDecimal` for monetary values.
-* Add proper authorization checks for sensitive operations.
-* Enable HTTPS.
 
 ## Author
 
